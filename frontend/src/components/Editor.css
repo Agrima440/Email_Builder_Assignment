@@ -1,0 +1,30 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.layout-preview {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.editor-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.editor-input, .editor-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editor-textarea {
+  min-height: 100px;
+}

@@ -1,0 +1,16 @@
+.image-uploader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.file-input {
+  padding: 5px;
+}
+
+.image-preview {
+  max-width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
