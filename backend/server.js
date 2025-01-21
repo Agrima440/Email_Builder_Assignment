@@ -14,12 +14,9 @@ connectDB();
 app.use(express.json());
 app.use(cors());
 
-app.get('/',(req,res)=>{
-  res.send({
-    success:true,
-    message:"project is live"
-  })
-})
+app.get("/", (req, res) =>
+  res.send('<h1>Welcome to "The Email Builder Application" Backend </h1>')
+);
 app.use("/api/email", emailRoutes);
 
 const PORT = process.env.PORT || 5000;
